@@ -8,7 +8,10 @@
 .btn--orange { /* BEM modifier on btn class*/
     background-color: var(--mainOrange);
 }
-.btn--large {
-    font-size: 1.15rem;
-    padding: 1rem 1.25rem;
+
+@media (min-width: 768px) {
+    .btn--large {
+        font-size: 1.15rem;
+        padding: 1rem 1.5rem;
+    }
 }
