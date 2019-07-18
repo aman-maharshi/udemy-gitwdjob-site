@@ -1,5 +1,7 @@
 :root {
     --mainBlue: #2f5572;
+    --mainOrange: #d59541;
+    /* font-size: 14px; */
   }
   body {
     font-family: 'Roboto', sans-serif;

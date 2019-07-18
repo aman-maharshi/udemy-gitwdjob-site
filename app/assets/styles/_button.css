@@ -1,0 +1,14 @@
+.btn {
+    background-color: var(--mainBlue);
+    color: white;
+    text-decoration: none;
+    display: inline-block; /* so its surrounding elements are aware of its padding  */
+    padding: .8rem 1rem;
+}
+.btn--orange { /* BEM modifier on btn class*/
+    background-color: var(--mainOrange);
+}
+.btn--large {
+    font-size: 1.15rem;
+    padding: 1rem 1.25rem;
+}
