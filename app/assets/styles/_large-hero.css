@@ -9,7 +9,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
   
   .large-hero__title {
     font-weight: 300;
@@ -22,7 +21,7 @@
         font-size: 4rem;
       }
   }
-  @media (max-width: 410px) {
+  @media (max-width: 425px) {
     .large-hero__title {
       width: 14rem;
     }

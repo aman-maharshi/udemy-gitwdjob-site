@@ -12,17 +12,35 @@
     max-width: 100%;
     height: auto;
   }
+
+  /*
+    WRAPPER
+  ---------------*/
   .wrapper {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     max-width: 1200px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrapper--medium {
+    max-width: 960px;
+  }
+  @media (max-width: 768px) {
+    .wrapper--medium {
+      padding: 0;
+    }
   }
   /*
     PAGE SECTION
   ----------------*/
   .page-section {
-    padding: 4.5rem 0;
+    padding: 1rem 0;
+  }
+  @media (min-width: 768px) {
+    .page-section {
+      padding: 4.5rem 0;
+    }
   }
   .page-section--blue { /*  modifier on paeg-section class  */
     background-color: var(--mainBlue);
