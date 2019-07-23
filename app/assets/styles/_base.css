@@ -8,6 +8,9 @@
     color: #333; 
     margin: 0;
   }
+  * {
+    box-sizing: border-box;
+  }
   img {
     max-width: 100%;
     height: auto;
@@ -46,4 +49,48 @@
     background-color: var(--mainBlue);
     color: white;
   }
-  
+  /*
+    ROW
+  --------------*/
+  .row {
+    margin-top: 2rem;
+    display: flex;
+  }
+  .row__4 {
+    flex: 1;
+  }
+  .row__8 {
+    flex: 2;
+    padding-left: 3rem;
+  }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .row__4 {
+      display: flex;
+      justify-content: center;
+    }
+    .row__8 {
+      padding-left: 0;
+    }
+  }
+  /* .row {
+    border: 1px dotted lightgray;
+  }
+  .row__4 {
+    float: left;
+    width: 33%;
+  }
+  .row__8 {
+    float: left;
+    width: 66%;
+    padding-left: 3rem;
+  }
+  .row::after {
+    content: "";
+    display: block;
+    clear: both;
+  } */
