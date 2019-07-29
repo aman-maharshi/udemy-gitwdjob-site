@@ -15,13 +15,6 @@
     max-width: 100%;
     height: auto;
   }
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  nav li {
-    padding: 2%;
-  }
 
   /*
     WRAPPER
