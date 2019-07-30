@@ -64,3 +64,43 @@
   .section-title__icon {
     margin-right: .35rem;
   }
+
+  /*
+    FEATURES  
+  ------------------*/
+  .feature {
+    display: flex;
+    /* border: 1px dotted white; */
+  }
+  .feature__img {
+    padding-top: 2rem;
+    flex: 1;
+  }
+  .feature__content {
+    flex: 5;
+    padding-right: 2rem;
+  }
+  .feature__content__title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: .7rem;
+  }
+  .feature__content__desc {
+    color: rgb(228, 228, 228);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    width: 85%;
+    margin-top: 0;
+    font-weight: 300;
+  }
+  @media (max-width: 425px) {
+    .feature {
+      flex-direction: column;
+    }
+    .feature__img {
+      align-self: center;
+    }
+    .feature__content__desc {
+      width: 100%;
+    }
+  }

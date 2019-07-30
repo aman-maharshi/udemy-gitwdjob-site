@@ -44,11 +44,13 @@
 
 
   /*    row__6 for two column layout in the Features Section    */
-.row__6 {
-
+.row__6--first {
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 @media (max-width: 768px) {
-    .row__6 {
-
+    .row__6--first {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
