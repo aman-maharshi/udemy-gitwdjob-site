@@ -19,7 +19,7 @@
   /*
     WRAPPER
   ---------------*/
-  .wrapper {
+  .wrapper { /* to make a container div at the center of the page */
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     max-width: 1200px;
@@ -38,7 +38,7 @@
     PAGE SECTION
   ----------------*/
   .page-section {
-    padding: 1rem 0;
+    padding: 1rem 0; /* for mobile view */ 
   }
   @media (min-width: 768px) {
     .page-section {
@@ -49,6 +49,10 @@
     background-color: var(--mainBlue);
     color: white;
   }
+  .page-section--testimonials {
+    background: url(../images/testimonials-bg.jpg) no-repeat top center;
+    background-size: cover;
+  }
 
   /*
     SECTION TITLE
@@ -58,11 +62,16 @@
     font-weight: 300;
     text-align: center;
   }
+  .section-title--blue {
+    color: var(--mainBlue);
+  }
   .section-title strong {
     font-weight: 500;
   }
   .section-title__icon {
     margin-right: .35rem;
+    position: relative;
+    top: 3px;
   }
   @media (max-width: 425px) {
     .section-title {
