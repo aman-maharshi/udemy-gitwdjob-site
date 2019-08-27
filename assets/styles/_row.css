@@ -1,7 +1,10 @@
 .row {
     margin-top: 2rem;
     display: flex;
-  }
+}
+.row__px15 {
+  padding: 0 1.5rem;
+}
 
 /*    4 and 8 Columns for Our Beginning Section   */
 .row__4 {
