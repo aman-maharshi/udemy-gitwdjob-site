@@ -1,0 +1,31 @@
+.testimonial {
+    background-color: var(--transparentWhite);
+    padding: 0 1.8rem 1px 1.8rem;
+    /* min-height: 28rem; */
+}
+.testimonial__photo {
+    /*  height and width of div same as the photo inside */
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px; /* as its positioned relative the elements under this div are not aware the its pushed up -80px */
+    border: 5px solid var(--transparentWhite);
+}
+.testimonial__title {
+    text-align: center;
+    color: var(--mainBlue);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+.testimonial__subtitle {
+    text-align: center;
+    color: var(--mainOrange);
+    margin: 0 .5rem 1rem 0;
+    font-weight: 400;
+    font-size: .9rem;
+}
