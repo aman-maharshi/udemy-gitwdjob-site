@@ -86,3 +86,17 @@
       font-size: 2.5rem;
     }
   }
+
+  /*
+    FOOTER
+  --------------*/
+  footer {
+    background-color: var(--mainBlue);
+    color: rgb(228, 228, 228);
+    padding: 1rem 0; 
+    text-align: center;
+    font-weight: 300;
+  }
+  footer p {
+    margin: 0.5rem 0;
+  }
