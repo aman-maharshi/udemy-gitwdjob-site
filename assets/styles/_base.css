@@ -2,6 +2,7 @@
     --mainBlue: #2f5572;
     --mainOrange: #d59541;
     --transparentWhite: rgba(255,255,255, 0.7);
+    --whiteBlue: #e0e6ef;
     /* font-size: 14px; */
   }
   body {
@@ -50,9 +51,15 @@
     background-color: var(--mainBlue);
     color: white;
   }
+
   .page-section--testimonials {
-    background: url(../images/testimonials-bg.jpg) no-repeat top center;
+    background-color: var(--whiteBlue);
     background-size: cover;
+  }
+  @media (min-width: 769px) {
+    .page-section--testimonials {
+      background: url(../images/testimonials-bg.jpg) no-repeat top center;
+    }
   }
 
   /*

@@ -1,8 +1,11 @@
 .testimonial {
     background-color: var(--transparentWhite);
     padding: 0 1.5rem 1px 1.5rem;
-    min-height: 440px;
-    /* min-height: 28rem; */
+}
+@media (min-width: 769px) {
+    .testimonial { /* equal height at medium */
+        min-height: 440px;
+    }
 }
 @media(max-width: 768px) {
     .testimonial {
@@ -42,4 +45,10 @@
     line-height: 1.6;
     font-size: 1.07rem;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .px-sm0 {
+        padding: 0;
+    }
 }
