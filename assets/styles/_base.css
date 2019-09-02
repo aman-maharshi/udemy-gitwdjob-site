@@ -100,3 +100,13 @@
   footer p {
     margin: 0.5rem 0;
   }
+  .footer__span {
+    display: block; /* to make the button fall to next line */
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 769px) {
+    .footer__span {
+      display: inline;
+      margin-right: 2rem;
+    }
+  }

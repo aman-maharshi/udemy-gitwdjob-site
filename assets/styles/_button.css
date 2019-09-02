@@ -17,12 +17,6 @@
 }
 .btn--footer {
     display: inline-block;
-    margin-left: 3rem;
     padding: .8rem 2.25rem;
     font-weight: 500;
-}
-@media (max-width: 768px) {
-    .btn--footer {
-        display: none;
-    }
 }
