@@ -1,0 +1,37 @@
+.site-header {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--transparentBlue);
+    width: 100%;
+    padding: 10px 0;
+}
+.site-header__btn-container {
+    float: right;
+}
+.site-header__nav {
+    float: right;
+}
+.site-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.site-header li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.site-header__nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: 300;
+    padding: 12px 0;
+
+}
+.site-header__logo {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: var(--mainBlue);
+    padding: 25px 36px;
+}
