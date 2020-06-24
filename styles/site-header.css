@@ -62,3 +62,6 @@
         display: block;
     }
 }
+.site-header__menu-content--visible {
+    display: block;
+}
