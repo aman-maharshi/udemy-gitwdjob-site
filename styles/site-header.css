@@ -63,6 +63,10 @@
     .site-header li {
         padding-right: 0;
     }
+    .site-header li a {
+        margin-bottom: 10px;
+        background: rgba(255,255,255,0.2);
+    }
 }
 @media (min-width: 769px) {
     .site-header {
