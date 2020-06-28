@@ -37,3 +37,19 @@
       text-align: center;
     }
   }
+  /* JavaScript triggered classes */
+  .item-hidden {
+    opacity: 0;
+  } 
+  .item-visible {
+    animation: slide-top 1s ease-out forwards;
+  }
+  @keyframes slide-top {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
