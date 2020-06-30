@@ -117,3 +117,13 @@
 .header-bg-mobile {
     background: rgba(47,85,114,0.8);
 }
+@media (min-width: 769px) {
+    .sticky-header {
+        background-color: rgba(23,51,72,0.85);
+        position: fixed;
+    }
+    .modify-logo {
+        transform: scale(0.57);
+        top: -25px;
+    }
+}
