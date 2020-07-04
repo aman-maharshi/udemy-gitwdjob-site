@@ -127,4 +127,7 @@
         transform: scale(0.57);
         top: -25px;
     }
+    .is-active {
+        color: var(--mainOrange) !important;
+    }
 }
