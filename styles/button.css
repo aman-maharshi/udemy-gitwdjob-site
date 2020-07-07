@@ -5,8 +5,17 @@
     display: inline-block; /* so its surrounding elements are aware of its padding  */
     padding: .8rem 1rem;
 }
-.btn--orange { /* BEM modifier on btn class*/
+.btn--orange { 
     background-color: var(--mainOrange);
+}
+.btn, .btn--orange {
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: var(--mainBlueHover);
+}
+.btn--orange:hover {
+    background-color: var(--mainOrangeHover);
 }
 
 @media (min-width: 768px) {
